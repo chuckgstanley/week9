@@ -1,0 +1,49 @@
+body
+{
+	background-color:#cccccc;
+}
+div { 
+	outline: 1px solid #cccccc;
+	
+}
+
+#main-content {
+	width: 3600px;
+	height: 2500px;	
+
+}
+
+.button-holder {
+	width: 180px;
+	float: left;
+	background-color: white;
+	height: 230px
+}
+
+.button {
+	background: #65a9d7;
+	width: 60px;
+	padding: 8px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	float: left;
+	text-align: center;
+	margin: 4px;
+	cursor: pointer;
+}
+
+.disabled{
+	cursor: default;
+	border-color: gray;
+	color: gray;
+	background-color: black;
+
+}
+.image-holder {
+	width: 330px;
+	height: 230px;
+	float: left;
+	background-color: white;
+	
+}
